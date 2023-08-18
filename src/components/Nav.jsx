@@ -21,6 +21,9 @@ const Nav = () => {
             </li>
           ))}
         </ul>
+        <div className="hidden max-lg:block cursor-pointer">
+          <img src={hamburger} alt="menu" width={25} height={25}/>
+        </div>
       </nav>
     </header>
   );
